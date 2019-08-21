@@ -23,6 +23,7 @@ oc get route
 oc expose service js-playground
 oc get route
 oc delete service,pod,deploymentconfig,buildconfig,build,imagestream --all -n <MI-PROYECTO>
+oc get service,pod,deploymentconfig,buildconfig,build,imagestream -n <MI-PROYECTO>
 ```
 
 License
