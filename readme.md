@@ -22,7 +22,7 @@ oc get service
 oc get route
 oc expose service js-playground
 oc get route
-oc delete service,pod,deploymentconfig,buildconfig,build,imagestream --all -n taller-devops
+oc delete service,pod,deploymentconfig,buildconfig,build,imagestream --all -n <MI-PROYECTO>
 ```
 
 License
